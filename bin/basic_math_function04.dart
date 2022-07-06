@@ -8,9 +8,9 @@ import 'dart:math';
     Returns:
         result (double): multiply x by the sine of y. Round the result.
 */
-double func(x,y){
+int func(x,y){
     double a = x*(sin(y));
-    double b = round(a);
+    int b = a.round();
     return b;
 }
 void main() {

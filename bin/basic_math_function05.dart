@@ -12,6 +12,7 @@ int func(x,y){
     double a = x*(cos(y));
     int b = a.round();
     return b;
+    
 }
 void main() {
     print(func(35,pi/6));

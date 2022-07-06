@@ -10,7 +10,8 @@ import 'dart:math';
 */
 double func(x,y){
     double a = x*(sin(y));
-    return a;
+    double b = round(a);
+    return b;
 }
 void main() {
     print(func(8,27));

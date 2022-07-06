@@ -1,3 +1,4 @@
+import 'dart:math';
 /*
   Create function named func with a argument
   Given the squre area,find its side
@@ -6,5 +7,10 @@
   Returns:test
       side (double): the side of the square
 */
-
-void main() {}
+double func(square_area){
+    double x = sqrt(square_area);
+    return x;
+}
+void main() {
+    print(func(81));
+}
